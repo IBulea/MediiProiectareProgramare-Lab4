@@ -1,0 +1,5 @@
+package library.network.rpcprotocol;
+
+public enum ResponseType {
+    LOGIN_SUCCESSFULLY, LOGOUT_SUCCESSFULLY, GET_AVAILABLE_PRODUCTS, GET_USER_PRODUCTS, SEARCH_PRODUCTS, BUY_PRODUCT, OK, ERROR
+}
